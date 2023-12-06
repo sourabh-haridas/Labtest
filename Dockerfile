@@ -9,13 +9,9 @@
 #EXPOSE 9090
 
 # Use an official PHP runtime as a parent image
-FROM php:7.4-apache
-
-# Copy the contents of the src directory into the Apache document root directory
+FROM php:apache
+# copy all the files in the directory to the directory in the container
 COPY . /var/www/html/
-
 # Expose the port that the app runs on
 EXPOSE 80
 
-# Define the command to run Apache
-#CMD ["apache2-foreground"]
