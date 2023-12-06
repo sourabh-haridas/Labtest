@@ -5,5 +5,5 @@ COPY . /usr/src/myapp
 #set the specified directory as the work directory
 WORKDIR /usr/src/myapp
 #run the php file
-CMD [ "php", "./index.php" ]
+#CMD [ "php", "./index.php" ]
 
