@@ -6,5 +6,5 @@ COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 #run the php file
 #CMD [ "php", "./index.php" ]
-EXPOSE 9090
+EXPOSE 80
 
