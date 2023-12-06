@@ -18,4 +18,4 @@ COPY . /var/www/html/
 EXPOSE 80
 
 # Define the command to run Apache
-CMD ["apache2-foreground"]
+#CMD ["apache2-foreground"]
